@@ -53,3 +53,13 @@ License
 [Apache Software License v2.0](http://www.apache.org/licenses/LICENSE-2.0)
 
 
+# How to build SeLion
+1. git clone ios-driver
+2. update submodule "git submodule update --init --recursive"
+3. mvn install ios-driver with command prompt "mvn install -DskipTests"
+4. git clone SeLion
+5. start local selenium grid
+  * enter localgrid folder
+  * click startSelenium.bat (only used for windows platform)
+6. build SeLion "mvn clean install -DSELION_SELENIUM_HOST=127.0.0.1 -DskipTests"
+

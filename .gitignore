@@ -11,3 +11,4 @@ selionFiles/
 logs/
 *.DS_Store
 client/ios-driver.log
+!localgrid/*.jar
